@@ -1,0 +1,141 @@
+html, body {
+	font-family: "Lato", Helvetica;
+}
+
+.banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #4C4C4C;
+	width: 100%;
+	box-shadow: 0px 3px 5px #888888;
+	text-indent: 2em;
+  color: white;
+}
+
+#page ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+ }
+
+#page li {
+  float: left;
+}
+
+
+#page li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+#page li a:hover, .dropdown:hover .dropbtn {
+  background-color: #7eb7bc;
+  color: black;
+}
+
+#pageli.dropdown {
+  display: inline-block;
+}
+
+.heading {
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 60px;
+}
+
+.heading #title {
+  margin-top: 1em;
+  text-align: center;
+  color: #7eb7bc;
+}
+
+
+.tabbed {
+  margin-left: 70em;
+}
+.tutorial h1{
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+p{
+	color:#252627;
+  text-indent: 25px;
+}
+
+.subTutorial {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.subTutorial h2 {
+  margin-top: 1em;
+  margin-bottom: -0.3em;
+}
+
+
+#subTutorial p { 
+  color: #22223B;
+}
+
+.tutorial li { 
+  color: #7eb7bc;
+}
+
+.definition { 
+  color: #4A4E69;
+}
+
+.button{
+	border: none;
+	color: black;
+	padding: 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
+	width: auto;
+}
+
+.button:hover {
+  background-color: #7ebc83; 
+  color: black; 
+  border: 2px solid #7ebc83;
+}
+
+.button {
+  background-color: #7eb7bc;
+  color: white;
+}
+
+
+.submitbutton {
+  background-color: #7eb7bc; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  padding: 10px 24px;
+}
+.question{
+  font-size: 20px;
+}
+

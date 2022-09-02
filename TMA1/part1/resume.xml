@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="resume.xsl" type="text/xsl"?>
+<resume>
+    <me name="AL HISHAM ANIK" address="11349 79 Ave NW, Edmonton AB" telephone="(825)343-4105" email="alhisham@ulaberta.ca" />
+    <education>
+        <qualification establishment="University of Alberta" type="Degree" from="Sep 2018" to="Apr 2023">
+            Bachelor of Applied Science - Computer Engineering
+        </qualification>
+    </education>
+    <employment>
+        <experience establishment="Loblaw Companies Limited" job_title="Clerk" from="May 2020" to="Present">
+            <achievement>Trained new hires to handle cash registers, organize inventory room and use invoice software.</achievement>
+            <achievement>Handled an average of 40 customers inquiries and complaints, also receiving outstanding feedback.</achievement>
+        </experience>
+    </employment>
+    <projects>
+        <project name='Restaurant Website'>
+            <point>Tools: HTML and CSS</point>
+            <point>Designed, developed and launched a user-friendly and responsive website for a food chain called Sauslys.</point>
+            <point>Ensured high traffic, page views, and quality user experience which resulted in 30% more sales revenue.</point>
+            <point>Created chatbot using IBM Watson that interacted with users to help them with relevant responses. </point>
+        </project>
+        <project name='Simple version of Google’s Edmonton map:'>
+            <point>Tools: C++</point>
+            <point>Implemented Dijkstra’s Algorithm on the Edmonton map so users can find the shortest driving route
+                between two points of their choice. The nearby area can be zoomed- in and out to view more details. </point>
+            <point>Established graphical user interfaces (GUIs) on the Arduino monitor so users can choose specific points
+                on the map and display nearby restaurants along with their ratings ranging from 1 to 5 stars. </point>
+        </project>
+        <project name='Encrypted chat program between two Arduinos'>
+            <point>Tool: C++ </point>
+            <point>Incorporated handshaking protocol between two Arduinos to share public and private keys.</point>
+            <point>Applied RSA algorithm to encrypt the data sent between the Arduinos using the two keys.</point>
+        </project>
+    </projects>
+</resume>

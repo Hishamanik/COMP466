@@ -1,0 +1,81 @@
+/* printing specific CSS */
+@media all {
+  .page-break {
+    display: none;
+  }
+}
+
+@media print {
+  .page-break {
+    display: block;
+    page-break-before: always;
+  }
+}
+
+@page {
+  size: auto; /* auto is the initial value */
+  margin: 0mm; /* this affects the margin in the printer settings */
+}
+
+/* regular CSS */
+body {
+  background-color: rgb(54, 24, 24);
+  text-align: center;
+  line-height: 24px;
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: arial;
+  font-size: 90%;
+}
+
+h2{
+  color: rgb(19, 63, 166)
+}
+
+#container {
+  margin: 0 auto;
+  width: 960px;
+  text-align: left;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#me h1 {
+  font-size: 580%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: bold;
+  font-weight: normal;
+  letter-spacing: -3px;
+  margin-left: 20px;
+}
+
+#content {
+  margin: 15px;
+}
+
+#statement {
+  text-align: justify;
+}
+
+
+#education {
+  float: left;
+  width: 250px;
+}
+
+#education div.qual p.qualcontent {
+  margin-bottom: 0px;
+}
+
+#education div.qual p.qualestablishment {
+  margin-top: 0px;
+  font-style: italic;
+}
+
+#employment {
+  float: right;
+  width: 650px;
+}
+

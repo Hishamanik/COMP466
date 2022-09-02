@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Tutorial: Unit 3 </title>
+      <link rel="stylesheet" type="text/css" href="../shared/main.css">
+      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:900">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   </head>
+   <body>
+      <div id="page" class="banner">
+         <ul>
+           <li><a href="../tma1.html" >Home</a></li>
+           <li><a href="../part1/resume.xml" >Part 1</a></li>
+           <li><a href="../part2/index.html">Part 2</a> </li>
+           <li><a href="../part3/index.html">Part 3</a></li>
+           <li><a href="../part4/index.html">Part 4</a> </li>
+         </ul>
+      </div>
+      <div class="centerthis">
+      <div class="heading">
+         <h1 id ="title"> Unit 3: XML & Ajax </h1>
+         <p class= "caption"> In this unit you will review the basics of XML and Ajax </p>
+
+      </div>
+      <div id = "tutorial">
+         <div class = "tutorial">
+            <center><h1 class="title"> XML </h1></center>
+            <hr>
+            <div class= "subTutorial">
+               <h2> Introduction</h2>
+               <p> The following terms below are commonly used tags in HTML:
+               <ul>
+                  <li>XML stands for eXtensible Markup Language</li>
+                  <li>XML is a markup language much like HTML</li>
+                  <li>XML was designed to store and transport data</li>
+                  <li>XML was designed to be self-descriptive</li>                 
+               </ul></p>
+               <p>Below is an example of a XML code</p>
+               <div class="images">
+                  <img src="../shared/xml.jpg">
+               </div>
+               <h2> XML Tree structure </h2>
+               <p>XML documents are formed as element trees. </p>
+
+               <p>An XML tree starts at a root element and branches from the root to child elements. </p>
+                  
+               <p>All elements can have sub elements (child elements):</p>
+               <div class="images">
+                  <img src="../shared/XML_treeStructure.png" widht = "250" height = "250">
+               </div>
+               
+               <h2> XML Elements </h2>
+               <p>An XML element is everything from (including) the element's start tag to (including) the element's end tag.</p>
+               <p> An element can contain::
+                  <ul>
+                     <li>text</li>
+                     <li>attributes</li>
+                     <li>other elements</li>
+                     <li>mix of above</li>                 
+                  </ul></p>
+                  <p>An Example is shown below</p>
+                  <div class="images">
+                     <img src="../shared/XML_elements.png" width="700" height = "400">
+                  </div>
+                  <p> &lttitle&gt , &ltauthor&gt, &ltyear&gt, and &ltprice&gt have text content because they contain text (like 29.99).</p>
+                  <p> &ltbookstore&gt and &ltbook&gt have element contents, because they contain elements.</p>
+                  <p> &ltbook&gt has an attribute (category="children").</p>
+
+               <h2>XML HTTP Request</h2>
+               <br>
+               <div class="images">
+                  <img src="../shared/XML_HTTPRrequest.png" width="500" height = "300">
+                  <img src="../shared/XML_HTTRequest2.png" width="500" height = "400">
+               </div>
+               <h2>XSL transformation </h2>
+               <p>Convert XML into any text-based document </p>
+               <p> XSL documents have the extension .xsl </p>
+               <p><a  class="definition"> XPath </a>A string-based language of expressions used by XML and many of its related technologies for effectively and efficiently locating structures and data (such as specific elements and attributes) in XML documents </p>
+               <p>XSLT does not analyze every node of the source tree, it selectively navigates the source tree using XPath’s select and match attributes </p>
+               <p>Stylesheeet Language:</p>
+               <ul>
+                  <li><a class="definition"> XPath character / (a forward slash)  </a> Selects the document root </li>
+                  <li><a class="definition"> XSL element value-of  </a> Retrieves an attribute’s value</li>
+                  <li><a class="definition"> XSL node-set function name  </a>Retrieves the current node’s element name</li>
+                  <li><a class="definition"> XSL node-set function text </a>  Retrieves the text between an element’s start and end tags. </li>
+                  <li><a class="definition">The XPath expression //*  </a> Selects all the nodes in an XML document </li>
+               </ul>
+               <center><h3> <a href = "https://www.w3schools.com/xml/default.asp">
+                  You can learn more about XML by visiting this link</a></h3></center>
+            </div>
+            <h1> Ajax </h1>
+            <div class= "subTutorial">
+               <h2> Intoduction </h2>
+               <p>AJAX is not a programming language.
+                AJAX is a technique for accessing web servers from a web page. 
+                AJAX stands for Asynchronous JavaScript And XML. </p>
+               
+               <p> You can do the following with Ajax:
+               <ul>
+                  <li>Update a webpage without reloading the page</li>
+                  <li>Request data from a server- after the page has loaded</li>
+                  <li>receive data from a server- after the page has loaded</li>
+                  <li>Send data to a server - in the backgroudnd</li>                 
+               </ul></p>
+               <p>Ajax applications separate client-side user interaction and server communication, and run them in parallel, making the delays of server-side processing more transparent to the user </p>
+               <p>“Raw” Ajax uses JavaScript to send asynchronous requests to the server, then updates the page using the DOM </p>
+               
+               <h2>Traditional web applications vs Ajax Web Applications </h2>
+               <h3>Traditional Web Applications</h3>
+               <ul>
+                  <li>User fills in the form’s fields, then submits the form</li>
+                  <li>Browser generates a request to the server, which receives the request and processes it </li>
+                  <li>Server generates and sends a response containing the exact page that the browser will render </li>
+                  <li>Browser loads the new page and temporarily makes the browser window blank </li>
+                  <li>Client waits for the server to respond and reloads the entire page with the data from the response </li>
+               </ul>
+               <h3> Ajax Web Applications </h3>
+               <ul>
+                  <li>Client creates an XMLHttpRequest object to manage a request </li>
+                  <li>XMLHttpRequest object sends the request to and awaits the response from the server</li>
+                  <li>Requests are asynchronous, allowing the user to continue interacting with the application while the server processes the request concurrently</li>
+                  <li>When the server responds, the XMLHttpRequest object that issued the request invokes a callback function, which typically uses partial page updates to display the returned data in the existing web page without reloading the entire page</li>
+               </ul>
+               <center><h3> <a href = "https://www.w3schools.com/xml/ajax_intro.asp">
+                  You can learn more about Ajax by visiting this link</a></h3></center>
+               <hr>
+            </div>
+         </div>
+         <div class="heading">
+            <p class= "caption">Try the quiz for Unit 2.</p>
+            <a href="quiz3.html" class="submitbutton"> Quiz </a>
+         </div>
+      </div>
+   </body>
+</html>
