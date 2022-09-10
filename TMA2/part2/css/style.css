@@ -1,0 +1,95 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.navigation_bar{
+  width: 100%;
+  vertical-align: middle;
+}
+
+.header_right_data{
+  text-align: right;
+  position: relative;
+  bottom: 42px;
+}
+.header_right_data a{
+  text-decoration: none;
+}
+
+.slider img{
+  background-size: cover;
+  width: 100%;
+}
+
+.column{
+  float: left;
+  width: 48.40%;
+  padding: 14px;
+  background-color: #fbfbfb;
+  border: 1px solid #cfcfcf;
+  margin: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text-danger{
+  color: red;
+}
+
+.signup {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 40px;
+    width: 500px;
+    margin: auto;
+}
+
+.my_form {
+    padding: 8px 0px;
+}
+
+.my_form input {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #1a8bad;
+    margin-top: 6px;
+}
+
+.my_form textarea{
+  width: 100%;
+  border: 1px solid #1a8bad;
+  margin-top: 6px;
+}
+
+.my_form select{
+  height: 40px;
+  width: 100%;
+  border: 1px solid #1a8bad;
+  margin-top: 6px;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+  width: 20%;
+  text-align: center;
+  margin:0 auto;
+}
