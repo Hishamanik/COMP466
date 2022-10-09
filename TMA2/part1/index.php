@@ -9,7 +9,7 @@ $result = $query->fetchAll(PDO::FETCH_OBJ);
 ?>
 <!-- login form -->
 <div>
-  <img src="../images/welcome.jpg" class="banner_img">
+  <img src="images/welcome.jpg" class="banner_img">
 </div>
 <section>
 

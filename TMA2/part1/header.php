@@ -11,7 +11,7 @@
 <section>
 	 <div class="navigation-bar">
         <div class="navigation">
-           <a href="index.php"><img  src="../images/logo.jpg" alt ="Website Logo" style= "text-align:center"></a>
+           <a href="index.php"><img  src="images/logo.jpg" alt ="Website Logo" style= "text-align:center"></a>
             <ul>
                 <li><a href="login.php">LOGIN </a></li>
                 <li><a href="signup.php">SIGN UP</a></li>
